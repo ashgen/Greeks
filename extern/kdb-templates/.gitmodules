@@ -1,0 +1,16 @@
+[submodule "vcpkg"]
+	path = thirdparty/vcpkg
+	url = https://github.com/microsoft/vcpkg.git
+
+[submodule "vcpkg"]
+    path = thirdparty/kx
+    url = https://github.com/KxSystems/kdb.git
+[submodule "thirdparty/vcpkg"]
+	path = thirdparty/vcpkg
+	url = https://github.com/microsoft/vcpkg.git
+[submodule "thirdparty/kx"]
+	path = thirdparty/kx
+	url = https://github.com/KxSystems/kdb.git
+[submodule "thirdparty/amalgamate"]
+	path = thirdparty/amalgamate
+	url = https://github.com/edlund/amalgamate

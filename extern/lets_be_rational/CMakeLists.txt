@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5.0)
+set(CMAKE_CXX_STANDARD 17)
+file(GLOB SRCS "src/*.cpp")
+set(CMAKE_POSITION_INDEPENDENT_CODE  ON)
+set(CMAKE_CXX_FLAGS_RELEASE "-DNDEBUG -march=native")
+add_library(lets_be_rational STATIC ${SRCS})
