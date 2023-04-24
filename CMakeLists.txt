@@ -7,7 +7,7 @@ add_subdirectory(extern/armadillo)
 add_subdirectory(extern/lets_be_rational)
 add_subdirectory(extern/bsplines)
 
-include_directories(extern/bsplines)
+include_directories(extern/bsplines extern/armadillo/include)
 
 find_package(JlCxx)
 
